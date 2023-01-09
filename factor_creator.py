@@ -1,5 +1,6 @@
 import sys
 
+
 def split_fraction(fraction: str) -> list:
     split = [int(num) for num in fraction.split("/")]
     if len(split) < 2:
@@ -72,7 +73,7 @@ def get_least_common_multiple(*number_list: str) -> int:
     return lcd
 
 
-def get_greatest_common_factor(factors_list) -> int:
+def get_common_factors(factors_list) -> tuple:
     iterator_set = set()
     for number_set in factors_list:
         if iterator_set:
@@ -82,7 +83,7 @@ def get_greatest_common_factor(factors_list) -> int:
 
     # Now contains only factors that are shared between all factor lists, so
     # return the highest one.
-    return max(iterator_set)
+    return max(iterator_set), list(iterator_set)
 
 
 def convert_list(numerators: list,
@@ -150,12 +151,12 @@ if __name__ == "__main__":
         #     print(f"Prime Factors: {denom_prime_factors}")
 
     # Get the Greatest Common Factor for denominator
-    greatest_factor_denominator = get_greatest_common_factor(
+    greatest_factor_denominator, common_factors_denom = get_common_factors(
         denom_factors.values()
     )
 
     # Get the Greatest Common Factor for numerator
-    greatest_factor_numerator = get_greatest_common_factor(
+    greatest_factor_numerator, common_factors_numer = get_common_factors(
         numer_factors.values()
     )
 
@@ -163,6 +164,8 @@ if __name__ == "__main__":
     print(f"Greatest Common Factor (Denom): {greatest_factor_denominator}")
     print(f"Least Common Numerator: {lcn}")
     print(f"Least Common Denominator: {lcd}")
+    print(f"Common Factors (Num): {common_factors_numer}")
+    print(f"Common Factors (Denom): {common_factors_denom}")
     print("Converted Factors: ", end='')
     print(*converted_list, sep=" | ")
 

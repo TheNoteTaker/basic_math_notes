@@ -446,3 +446,81 @@ a formula you can quickly apply to get the answers.
 
 ## Greatest Common Factor
 
+1. Factor out the coefficient
+2. Factor out the variables
+
+If you cannot factor out a polynomial, use **grouping** to separate the 
+polynomial into groups. Then factor out the individual groups.
+
+- An example is below.
+
+### Example 1
+
+![](assets/greatest_common_factor_example001.png)
+
+### Example 2
+
+![](assets/greatest_common_factor_example002.png)
+
+### Example 3
+
+![](assets/greatest_common_factor_example003.png)
+
+### Example 4 - Grouping
+
+![](assets/greatest_common_factor_example004.png)
+
+## Solve Quadratic Equations by Factoring
+
+### Zero Product Property
+
+If `ab = 0` then `a` or `b`, or both `= 0`.
+
+![](assets/zero_product_property_ex001.png)
+
+- If one of the sides does not have a zero, just change both sides so that it 
+  does.
+
+## Factoring Trinomials
+
+![](assets/factoring_trinomials_ex001.png)
+
+- `r` and `s` are used as examples in finding the integers to use for this setup.
+  - The integers will always have a product of `c` and a sum of `b`.
+
+### Example 1
+
+![](assets/factoring_trinomials_ex002.png)
+
+### Example 2
+
+In setups where you cannot factor out the coefficient, this is the difference:
+
+![](assets/factoring_trinomials_ex003.png)
+
+- Some trinomials cannot be factored.
+
+## Special Cases: Cubes
+
+- **Sum of Cubes: a<sup>3</sup> + b<sup>3</sup> = (a + b)(a<sup>2</sup> - ab +
+  b<sup>2</sup>** 
+- **Difference of Cubes: a<sup>3</sup> - b<sup>3</sup> = (a - b)(a<sup>2</sup> +
+  ab + b<sup>2</sup>)**
+
+![](assets/special_cases_cubes.png)
+
+### Example 
+
+![](assets/special_cases_cubes_ex001.png)
+
+# Measurements
+
+## Length
+
+In the US Customary Measurement System, the units are:
+
+- **Mile - 5280 feet**
+- **Yard - 3 feet**
+- **Foot - 12 inches**
+- **Inch**
+
