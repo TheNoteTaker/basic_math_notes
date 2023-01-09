@@ -35,26 +35,26 @@ def create_factors(*numbers: int) -> dict:
                 high_end.append(number // i)
 
         # Add the two lists
-        factors[number] = low_end[:-1] + high_end[-2::-1]
+        factors[number] = sorted(set(low_end + high_end))
 
     return factors
 
 
-def get_least_common_denom(numerators: list, *denominators: str) -> int:
+def get_least_common_multiple(*number_list: str) -> int:
     multiple = 1
     lcd = 1  # Least common denominator
     found = False
-    denominators = sorted(denominators)[::-1]
+    number_list = sorted(number_list)[::-1]
     while not found:
 
         index = 0
-        if len(denominators) == 1:
+        if len(number_list) == 1:
             # Return the number itself
-            return int(denominators[0])
+            return int(number_list[0])
 
-        for num in denominators[1:]:
+        for num in number_list[1:]:
             # Cycle through all numbers in the list provided, except the first.
-            lcd = denominators[0] * multiple
+            lcd = number_list[0] * multiple
             if lcd % num != 0:
                 # The resulting number doesn't divide into the other numbers
                 found = False
@@ -66,7 +66,6 @@ def get_least_common_denom(numerators: list, *denominators: str) -> int:
         multiple += 1
 
     return lcd
-
 
 def convert_list(numerators: list,
                  denom: list,
@@ -96,7 +95,8 @@ if __name__ == "__main__":
     numer, denom = get_input()
 
     # Get the least common denominator
-    lcd = get_least_common_denom(numer, *denom)
+    lcd = get_least_common_multiple(*denom)
+    lcn = get_least_common_multiple(*numer)
 
     # Get the factors of each number
     denom_factors = create_factors(*denom)
@@ -105,13 +105,33 @@ if __name__ == "__main__":
     # Multiply all factors by the least common denominator
     converted_list, multiple = convert_list(numer, denom, lcd)
 
-    # Print the results
-    for k, v in denom_factors.items():
-        print(f"Denominator: {k:03}, Length: {len(v):03}, Factors: {v}")
-
+    # Print the numerator factors
     for k, v in numer_factors.items():
-        print(f"Numerator: {k:03}, Length: {len(v):03}, Factors: {v}")
+        # # Store length for future use
+        # length_of_list = len(v)
+        numer_prime_factors = []
+        # if length_of_list % 2 == 1:
+        #     # There is a prime factor if there's an odd number left
+        #     numer_prime_factors.append(v)
 
+        print(f"Numerator: {k:03}, Length: {len(v):03}, Factors: {v}")
+        # if numer_prime_factors:
+        #     print(f"Prime Factors: {numer_prime_factors}")
+
+    # Print the denominator factors
+    for k, v in denom_factors.items():
+        # # Store length for future use
+        # length_of_list = len(v)
+        # denom_prime_factors = []
+        # if length_of_list % 2 == 1:
+        #     # There is a prime factor if there's an odd number left
+        #     denom_prime_factors.append(v)
+
+        print(f"Denominator: {k:03}, Length: {len(v):03}, Factors: {v}")
+        # if denom_prime_factors:
+        #     print(f"Prime Factors: {denom_prime_factors}")
+
+    print(f"Least Common Numerator: {lcn}")
     print(f"Least Common Denominator: {lcd}")
     print("Converted Factors: ", end='')
     print(*converted_list, sep=" | ")
@@ -129,5 +149,7 @@ if __name__ == "__main__":
     mixed_number = final_result // lcd
 
     # Print mixed number
-    print(f"Mixed number: {mixed_number} {remainder}/{lcd}")
-
+    if remainder:
+        print(f"Mixed number: {mixed_number} {remainder}/{lcd}")
+    else:
+        print(f"Mixed number: {mixed_number}")
