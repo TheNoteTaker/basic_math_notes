@@ -362,8 +362,8 @@ Polynomial terms cannot have:
 
 ### Example
 
-A rectangular picture frame has a length of  inches and a width of  inches. 
-Find the perimeter of the picture frame in inches.
+A rectangular picture frame has a length of **3a + 5** inches and a width of 
+**a + 2** inches. Find the perimeter of the picture frame in inches.
 
 1. Add the lengths and widths: 
    `(3a + 5) + (a + 2) + (3a + 5) + (a + 2)`
@@ -403,6 +403,7 @@ There are three special cases:
    b<sup>2</sup></u>**
 3. **(a+b)(a - b) = a<sup>2</sup> - ab + ab - b<sup>2</sup> = 
    <u>a<sup>2</sup> - b<sup>2</sup></u>**
+   - The final formula is using subtraction, not multiplication.
 
 These special cases are useful, because the final answers above will always be 
 a formula you can quickly apply to get the answers.
@@ -419,4 +420,29 @@ a formula you can quickly apply to get the answers.
 - The monomials are rewritten from negative exponents to fractions (the 
   reciprocal)
 
-## Simplifying and Evaluating Polynomials with More than One Term
+## Operations With Polynomials
+
+### Example 1
+
+![](assets/polynomials_operations_example001.png)
+
+### Example 2
+
+![](assets/polynomials_operations_example002.png)
+
+### Example 3
+
+![](assets/polynomials_operations_example003.png)
+
+### Example 4
+
+![](assets/polynomials_operations_example004.png)
+
+### Example 5
+
+![](assets/polynomials_operations_example005.png)
+
+# Factoring
+
+## Greatest Common Factor
+
