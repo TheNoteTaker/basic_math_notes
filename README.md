@@ -524,3 +524,150 @@ In the US Customary Measurement System, the units are:
 - **Foot - 12 inches**
 - **Inch**
 
+### Converting Units
+
+In order to convert units, multiply by a **conversion factor**.
+
+- A conversion factor is the number 1 expressed as a ratio of two equivalent 
+  units.
+
+![](assets/conversion_factor.png)
+
+- When converting, put the new units over the old units. 
+- The old units cancel out.
+
+The three steps to multiplying and converting are:
+
+1. Find equivalent (12 inches = 1 foot)
+2. Put into ratio, <sup>new unit</sup>/<sub>old unit</sub>
+3. Cancel out units and multiply
+
+## Weight
+
+In the US Customary Measurement System, the units are:
+
+- Tons - 2000 pounds
+- Pounds - 16 ounces
+- Ounces
+
+## Capacity
+
+In the US Customary Measurement System, the units are:
+
+- Gallon - 4 Quarts
+- Quart - 2 Pints
+- Pint - 2 Cups
+- Cup - 8 Fluid Ounces
+- Fluid Ounce
+
+## The Metric System
+
+**Metric System:** A system of measurement based on 10s used in most countries
+outside the US, and in the US as well.
+
+![](assets/metric_system.png)
+
+# Geometry
+
+## Figures in 1 and 2 Dimensions
+
+### Plane
+
+![](assets/plane.png)
+
+- **Plane:** 2-Dimensional object that continues on forever
+  - A plane is defined by 3 points.
+
+### Line
+
+![](assets/line.png)
+
+- **Line:** 1-Dimensional object that only has length and stretches in both
+  directions forever.
+  - A line is defined by 2 points
+  - Often written alphabetically
+
+### Line Segment
+
+![](assets/line_segment.png)
+
+### Ray
+
+![](assets/ray.png)
+
+### Angle
+
+- The common end point is the **vertex**.
+- The angles are:
+  - **Acute < 90**
+  - **Right = 90**
+  - **Obtuse > 90**
+  - **Straight = 180**
+
+## Triangles
+
+You can classify triangles by both their angle and their sides.
+
+- **Equilateral:** All sides are even length
+- **Isosceles:** Two sides are even length
+- **Scalene:** No sides are even length
+
+The sum of the measure of all 3 angles of a triangle is 180 degrees.
+
+- **Congruent Triangles:** Two triangles that have the same length sides and the
+  same angles.
+- **Similar Triangles:** Two triangles that have the same angles, but different
+  length sides.
+  - They are proportional
+
+## Quadrilaterals
+
+- **Polygons:** Closed plane figures with three or more straight sides
+  - They are not allowed to cross over eachother
+- **Triangles:** Polygons with three sides
+- **Quadrilaterals:** Polygons with four sides
+  - The internal angles add up to 360 degrees.
+  - Any quadrilateral can be divided into two triangles
+
+### Different Types of Quadrilaterals
+
+#### Parallelogram
+
+Has two pairs of parallel sides
+
+![](assets/parallelogram.png)
+
+- The opposite angles are congruent
+  - The equals sign with the tilde above it is the sign for **congruent**.
+- Rectangles, squares and rhombuses are parallelograms
+
+An example of a quadrilateral that's not a parallelogram is a **Trapezoid**.
+
+## Perimeter and Area
+
+### Area
+
+Area is expressed in squared units: **units<sup>2</sup>**
+
+#### Parallelogram
+
+With parallelograms, the area is **B * W** where *B* is base (left - right) and
+*W* is width (up - down).)
+
+#### Trapezoid
+
+![](assets/trapezoid_area.png)
+
+#### Triangle
+
+![](assets/triangle_area.png)
+
+## Circles
+
+![](assets/circles.png)
+
+- **Radius:** Distance from the center to the circle.
+- **Diameter:** A line that passes through the circle with endpoints on the 
+  circle.
+- **Circumference:** Distance around a circle
+- **Pie:** ~= **3.14** or **<sup>22</sup>/<sub>7</sub>**
