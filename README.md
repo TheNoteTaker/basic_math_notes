@@ -671,3 +671,173 @@ With parallelograms, the area is **B * W** where *B* is base (left - right) and
   circle.
 - **Circumference:** Distance around a circle
 - **Pie:** ~= **3.14** or **<sup>22</sup>/<sub>7</sub>**
+
+# Graphing
+
+## The Coordinate Plane
+
+- The **Origin** is the point where the two axes meet.
+- The quadrants start with the top right one as **Quadrant 1** and count 
+  counter-clockwise.
+- **Ordered Pair: (x, y)**
+
+## Graphing Linear Equations
+
+- **Linear Equation:** An equation with two variables, and whose ordered pairs
+  graph as a straight line.
+- **Intercepts:** The points where the line meets the axes.
+
+## Finding The Slope of a Line
+
+- **Rise:** The vertical movement
+- **Run:** The horizontal movement
+- **Slope** is used to describe and compare steepness. It is the ratio between
+  the horizontal and vertical movements.
+  - **Slope/m = <sup>rise</sup>/<sub>run</sub> = <sup>y2 - 
+    y1</sup>/<sub>x2 - x1</sub>**
+
+![](assets/rise_and_run.png)
+
+- When calculating **Rise** and **Run**, you get the distance between two 
+  integer points on the graph, where it is on an integer (not a decimal) for 
+  both the **X** and **Y** axes.
+- When the **Run** is left-to-right, it's positive. When it's right-to-left, 
+  it's negative.
+
+## Writing The Equation of a Line
+
+### Slope-Interecept Form
+
+**y = mx + b**
+
+#### Scenario 1
+
+If you don't know the intercept but have the slope and the coordinates for a
+single pair, then:
+
+1. Substitute the coordinate and slope into the formula
+2. Solve for **b** (The Y intercept)
+
+#### Scenario 2
+
+If you don't know the slope or intercepts, but have two points:
+
+1. Find the slope using the two points
+2. Substitute the slope and one of the coordinates into the formula
+3. Solve for **b** (The Y intercept)
+
+## Parallel and Perpendicular Lines
+
+- **Parallel:** Two lines have the same slope, but different intercepts
+  - Never meet
+- **Parallel:** Two lines have opposite reciprocal slopes
+  - **y = <sup>5</sup>/<sub>3</sub>x + 5** and **y = -<sup>3</sup>/<sub>5</sub>
+    \- 2**
+  - Meet at 90 degrees
+
+# Systems of Equations and Inequalities
+
+When a problem cannot be put into a simple equation, we put it two or more 
+linear equations that share two or more unknowns.
+
+A **System of Equations**:
+
+- Two or more equations that share two or more unknowns
+- Solution must satisfy **all** the equations in the system
+
+## Graphic Systems of Linear Equations
+
+One method of solving a system of linear equations is graphing. It's not always
+the best method, but it is a way to tell if there even is a value that satisfies
+both equations.
+
+![](assets/graphing_linear_equations.png)
+
+1. Graph out each linear equation
+   - This is easiest when you solve for the intercepts for each equation, and
+     then graph those.
+2. Find the point where the lines intercept. This is the answer.
+3. Substitute the values into the equation and check that it's true
+
+![](assets/graphing_linear_equations_02.png)
+
+## The Substitution Method
+
+Substitution is another way to solve a system of linear equations, without
+graphing.
+
+1. Isolate a variable in one equation
+2. Substitute that variable's expression into the other equation.
+3. Solve for that variable
+4. Substitute this value back in to find the remaining variable
+
+![](assets/substitution.png)
+
+### Possible Results
+
+#### **One Solution**
+
+When you get a normal result back indicating the value of the variable.
+
+#### No Solutions
+
+If you get a false statement such as `0 = 1`, then that means that there are 
+**no solutions**.
+
+- A parallel line
+
+#### Infinite Solutions
+
+If you get a True statement for all values of a variable, it means that there
+are an **infinite number of solutions**, because they're the same line.
+
+## The Elimination Method
+
+- Also called the addition method. 
+
+1. **Optional:** Multiply one of the equations by **-1**
+2. **Optional:** Multiply or divide one side so that it has an equal amount of
+   at least one variable as the other equation.
+3. Add the two equations once you have opposite terms that will eliminate a
+   variable.
+4. Substitute that variable's value into the other equation to get the answer.
+
+# Rational Expressions
+
+## Introduction to Rational Expressions
+
+A fraction that has a polynomial for either a numerator, denominator, or both is
+called a **Rational Expression**.
+
+- **Ratio**nal here refers to the fact that it's a ratio.
+
+The first step in dealing with rational expressions is to find the **Domain**.
+
+**Domain:** All possible values for the variables.
+
+- This means finding and excluding the values that make the denominator equal to
+  zero, since you can't divide by zero.
+
+### Example 1
+
+![](assets/domain_ex001.png)
+
+### Example 2
+
+![](assets/domain_ex002.png)
+
+### Example 3
+
+![](assets/domain_ex003.png)
+
+
+
+## Multiplying and Dividing Rational Expressions
+
+## Adding and Subtracting Rational Expressions
+
+## Complex Rational Expressions
+
+## Solving Rational Equations and Applications
+
+## Adding and Subtracting Rational Expressions
