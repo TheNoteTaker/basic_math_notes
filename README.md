@@ -830,14 +830,125 @@ The first step in dealing with rational expressions is to find the **Domain**.
 
 ![](assets/domain_ex003.png)
 
-
-
 ## Multiplying and Dividing Rational Expressions
 
+### Multiplying
+
+1. Find the domain of each denominator
+2. Simplify
+3. Multiply
+
+![](assets/multiplying_rational_expressions_001.png)
+
+### Division
+
+1. Find the domain of each denominator
+2. Multiply by the reciprocal of the divisor
+3. Find the domain of each denominator
+4. Simplify
+5. Multiply
+
+![](assets/dividing_rational_expressions.png)
+
 ## Adding and Subtracting Rational Expressions
+
+To find the least common denominator for denominators with no common factors,
+it will be the product of the two denominators.
+
+- **Same denominator:** add or subtract numerators and keep the denominator.
+- **Different denominator:** rewrite to have a common denominator.
+- Multiply one or more rational expressions by 1 in a form that gives a common
+  denominator. 
+- Try to find the least common denominator. 
+- Always define the domain
+
+### Example 1
+
+![](assets/adding_rational_expressions_001.png)
 
 ## Complex Rational Expressions
 
+1. Rewrite complex rational expressions that are stacked to be horizontal 
+   rational expressions instead.
+2. Find the domains
+3. Perform the multiplication or division steps
+
 ## Solving Rational Equations and Applications
 
-## Adding and Subtracting Rational Expressions
+Rational equations are often used to solve work problems, such as how long it
+will take to do something.
+
+1. Check for excluded values in the domain. 
+2. Find the common denominator (LCD is best). 
+3. Multiply by 1 in a form to get common denominators then rewrite the equation 
+   with just the numerators. 
+   - **OR** Multiply both sides by least common denominator. 
+4. Simplify and solve the remaining equation. 
+5. Check answers in the original equation. 
+6. Check that answers aren't excluded values.
+
+### Work Problems
+
+There are three formulas for calculating work problems:
+
+- **W** = The amount of work done
+- **r** = The rate of work
+- **t** = Time spent working
+
+1. **W = rt**
+2. **t = <sup>W</sup>/<sub>r</sub>**
+3. **r = <sup>W</sup>/<sub>t</sub>**
+
+### Example 1
+
+![](assets/solving_rational_expression_001.png)
+
+### Example 2
+
+![](assets/solving_rational_expression_002.png)
+
+### Example 3
+
+![](assets/solving_rational_expression_003.png)
+
+### Example 4
+
+![](assets/work_problem.png)
+
+## Rational Formulas and Variation
+
+Formulas that are expresses as rational equations are called **Rational 
+Formulas**.
+
+- They have input / output. The way that the output varies in relation to the
+  input is called **Variation**.
+
+### Direct Variation
+
+**y = kx**
+
+- `y` is the output (what you want to figure out)
+- `x` is the input, a changing value
+- `k` is the constant, a known input
+
+### Inverse Variation
+
+**y = <sup>k</sup>/<sub>x</sub>**
+
+- It's called inverse, because the output changes inversely to the input.
+
+### Joint Variation
+
+**y = kxz**
+
+- Similar to direct variation, only that it requires two inputs `(xz)` rather 
+  than one.
+
+# Radical Expressions and Quadratic Equations
+
+## Roots
+
+To find the square root of something, break it down into it's factors and then
+simplify:
+
+![](assets/root_example.png)
