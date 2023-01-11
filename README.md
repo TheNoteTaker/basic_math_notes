@@ -952,3 +952,113 @@ To find the square root of something, break it down into it's factors and then
 simplify:
 
 ![](assets/root_example.png)
+
+- You can also use approximations, down to the tens decimal.
+- The **Radical** symbol is used to indicate square root.
+- Don't use a negative sign before a radical sign.
+
+### Example
+
+![](assets/root_example_002.png)
+
+## Squares, Cubes, and Beyond
+
+1. Factor the term, looking for squares inside the term.
+2. Rewrite with multiple variables
+
+![](assets/root_square_001.png)
+
+- **Always enclose the end result in the absolute value sign if the value is 
+  even.**
+
+**Index** is the little number above the radical, it indicates what kind of 
+root you need to find.
+
+- If there is no index, it's square root.
+
+### Example 1
+
+![](assets/root_square_002.png)
+
+## Multiplying and Dividing Radical Expressions
+
+### Multiplying
+
+![](assets/multiplying_radical_expressions.png)
+
+- `x` must be a positive integer.
+
+### Dividing
+
+![](assets/dividing_radical_expressions.png)
+
+## Adding and Subtracting Radicals
+
+Treat them like you would variables. The variables, indexes, and variables need
+to be the same.
+
+![](assets/adding_radicals.png)
+
+### Example 1
+
+![](assets/adding_radicals_002.png)
+
+## Multiplication of Multiple Term Radicals
+
+It can be useful to treat radicals like variables. Rewrite the formula 
+substituting the radicals with `x`.
+
+1. Use the distributive property or the **FOIL** method
+2. Combine like terms
+
+![](assets/multiplying_multiple_radicals_001.png)
+
+### Example 1
+
+![](assets/multiplying_multiple_radicals_001.png)
+
+## Rationalizing Denominators
+
+Getting rid of the radical in a denominator is called **rationalizing the 
+denominator**, and is the first step in solving an equation that has one.
+
+![](assets/rationalizing_001.png)
+
+### Conjugates
+
+You can multiply a radical with more than just the radical in the denominator
+by its conjugate:
+
+![](assets/conjugates.png)
+
+#### Example
+
+![](assets/conjugates_002.png)
+
+## Solving Radical Equations
+
+Always check your answers when dealing with radicals, as there are sometimes
+**extraneous solutions** that must be discarded.
+
+- Extraneous solutions are solutions that do not work in the equation.
+
+1. Isolate the radical expression
+2. Square both sides of the equation to remove the radical
+3. Solve for the unknown
+4. Check all your answers
+
+### Example 1
+
+![](assets/radical_equation_001.png)
+
+### Example 2
+
+![](assets/radical_equation_002.png)
+
+### Extraneous Solution Example
+
+![](assets/extraneous_solutions.png)
+
+- When you get two answers, only one of them will work.
+
+# Functions
