@@ -1062,3 +1062,28 @@ Always check your answers when dealing with radicals, as there are sometimes
 - When you get two answers, only one of them will work.
 
 # Functions
+
+## Identifying Functions
+
+A function is a relation where for any input there is **only one** output.
+
+`y = 2x`
+
+- **x = number of bicycles = independent variable = Input**
+- **y = number of wheels = dependent variable = Output**
+  - It depends on the number of bicycles that come in
+
+![](assets/functions.png)
+
+- If there are multiple possible `y` values, then it is **not** a function.
+
+## Evaluating Functions
+
+For functions, instead of putting `y = x + 1`, you'd write `f(x) = x + 1`
+
+![](assets/f_of_x.png)
+
+- Different letters instead of `f` can be used if there's multiple functions, to
+  avoid confusion.
+- **Given f(x) = x + 1, find (2)** just means to find the value if **x** is 2.
+  - Substitute the input for **x**.
